@@ -19,4 +19,3 @@ class ModelTests(TestCase):
             password=password
         )
         self.assertEqual(user.email, email)
-
